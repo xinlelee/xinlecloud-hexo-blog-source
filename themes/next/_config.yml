@@ -122,6 +122,10 @@ menu:
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
+  LeetCode: /LeetCode/ || fa fa-code
+  Java: /Java/ || fa fa-backward
+  后端: /后端/ || fa fa-tags
+  DataBase: /DataBase/ || fa fa-database
   sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
@@ -995,7 +999,6 @@ vendors:
   # Internal version: 1.0.0
   # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
   canvas_ribbon:
-
 # Assets
 css: css
 js: js

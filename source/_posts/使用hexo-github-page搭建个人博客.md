@@ -133,3 +133,39 @@ npm config set registry https://registry.npm.taobao.org
 如果不开启阅读更多按钮的话，默认是展示文章中所有内容的，这显然体验不好。
 
 一般都会在文章中插入`<!--more-->`这种注释形式表示首页展示到注释处为止。
+
+
+
+## 新建左侧分类栏
+
+修改 theme中的配置，如
+
+```yaml
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  LeetCode: /LeetCode/ || fa fa-code
+  Java: /Java/ || fa fa-backward
+  后端: /后端/ || fa fa-tags
+  DataBase: /DataBase/ || fa fa-database
+  sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+```
+
+操作命令行
+
+ hexo new page "LeetCode"
+
+修改source文件夹中对应的index.md文件
+
+```xml
+title: tags
+date: 2020-08-22 22:35:39
+type: "tags"
+```
+
+修改blog\scaffolds 下的默认md文件头信息
